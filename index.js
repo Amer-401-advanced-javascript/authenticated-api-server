@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 const server = require('./lib/server');
-const MONGODB_URI = 'mongodb://localhost:27017/api-server';
+const MONGODB_URI = 'mongodb://localhost:27017/authenticated-api-server';
 
 mongoose.connect(MONGODB_URI, {
   useFindAndModify:false,
