@@ -12,4 +12,4 @@ mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
 });
 
-server.start(3000);
+server.start();
